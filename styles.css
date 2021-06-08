@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 2%;
+}
+
+p,
+button {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 1.5rem 4rem;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 1.5rem 3rem;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 1.5rem 3rem;
+}
+
+.sedan button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+button {
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  background-color: hsl(0, 0%, 95%);
+  padding: 0.5rem;
+  margin-top: 50px;
+}
+
+h2 {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-block: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: inherit;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media screen and (min-width: 48em) {
+  .main-content {
+    flex-direction: row;
+    margin: 15% 20%;
+  }
+}
